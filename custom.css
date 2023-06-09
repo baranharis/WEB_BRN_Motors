@@ -1,0 +1,25 @@
+/* Couleur de fond */
+body {
+    background-color: black;
+}
+
+/* Couleur des titres */
+h1, h2, h3, h4, h5, h6 {
+    color: red;
+}
+
+/* Couleur des liens */
+a {
+    color: red;
+}
+
+/* Couleur des boutons */
+.btn {
+    background-color: red;
+    color: white;
+}
+
+/* Couleur de surbrillance des boutons lors du survol */
+.btn:hover {
+    background-color: darkred;
+}
