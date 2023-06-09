@@ -42,24 +42,6 @@
                   <link rel="stylesheet" type="text/css" id="r-color-roller" href="assets/color-files/color-04.css">            
               </head>
               <body> 
-                   <section id="r-customizer" class="r-customizer">
-                        <div class="r-selector"> 
-                              <span class="d-block text-center">Color Options</span>
-                              <div class="r-color_section r-color_block">
-                                    <ul class="r-color_selector" id="r-color_selector">
-                                        <li class="r-color_1" data-attr="color-01"></li>
-                                        <li class="r-color_6" data-attr="color-06"></li>
-                                        <li class="r-color_2" data-attr="color-02"></li>
-                                        <li class="r-color_3" data-attr="color-03"></li>
-                                        <li class="r-color_4" data-attr="color-04"></li>
-                                        <li class="r-color_5" data-attr="color-05"></li>
-                                        <li class="r-color_7" data-attr="color-07"></li>
-                                        <li class="r-color_8" data-attr="color-08"></li>
-                                    </ul>
-                              </div>  
-                        </div>
-                        <i id="r-selector_icon" class="fa fa-cog"></i>
-                  </section>
                   <div class="r-wrapper">
                     <!-- HEADER -->
                     <header>
@@ -106,17 +88,24 @@
                         <div class="r-footer-strip">
                           <div class="container">
                             <div class="row clearfix">
-                              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                  <!-- <img src="assets/images/logo-white.png" alt="" class="r-footer-logo" /> -->
-                                  <img src="assets/images/BRN_logo_white.svg" class="r-footer-logo" alt="BRN logo" width="271" height="55">
-                              </div>   
-                              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                  <p class="r-copy-right-text">&copy;2023 Designed by <strong>HBA Solutions</strong> </p>
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                <img src="assets/images/BRN_logo_white.svg" class="r-footer-logo" alt="BRN logo" width="135" height="22"> 
+                              </div>
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                  <ul>
+                                    <li><a href="https://www.facebook.com/brn.motorss"><i class="fa fa-facebook"></i>. <span>Facebook</span></a></li>
+                                    <li><a href="https://www.instagram.com/brn_motors/?hl=fr"><i class="fa fa-instagram"></i>.<span>Instagram</span></a></li>
+                                    <li></li>
+                                    <li></li>
+                                  </ul>
                               </div>  
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                <p class="r-copy-right-text">&copy;2023 Designed by <strong>HB2 Code</strong> </p>
+                              </div>   
                             </div>
                           </div>
                         </div>
-                      </div>            
+                      </div>
                       <a href="#header" class="r-scroll-up-icon"> <i class="fa fa-angle-double-up"></i> </a>
                     </footer>
                   </div>                  
@@ -158,24 +147,6 @@
                   <link rel="stylesheet" type="text/css" id="r-color-roller" href="assets/color-files/color-04.css">            
               </head>
               <body> 
-                   <section id="r-customizer" class="r-customizer">
-                        <div class="r-selector"> 
-                              <span class="d-block text-center">Color Options</span>
-                              <div class="r-color_section r-color_block">
-                                    <ul class="r-color_selector" id="r-color_selector">
-                                        <li class="r-color_1" data-attr="color-01"></li>
-                                        <li class="r-color_6" data-attr="color-06"></li>
-                                        <li class="r-color_2" data-attr="color-02"></li>
-                                        <li class="r-color_3" data-attr="color-03"></li>
-                                        <li class="r-color_4" data-attr="color-04"></li>
-                                        <li class="r-color_5" data-attr="color-05"></li>
-                                        <li class="r-color_7" data-attr="color-07"></li>
-                                        <li class="r-color_8" data-attr="color-08"></li>
-                                    </ul>
-                              </div>  
-                        </div>
-                        <i id="r-selector_icon" class="fa fa-cog"></i>
-                  </section>
                   <div class="r-wrapper">
                     <!-- HEADER -->
                     <header>
@@ -222,17 +193,24 @@
                         <div class="r-footer-strip">
                           <div class="container">
                             <div class="row clearfix">
-                              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                  <!-- <img src="assets/images/logo-white.png" alt="" class="r-footer-logo" /> -->
-                                  <img src="assets/images/BRN_logo_white.svg" class="r-footer-logo" alt="BRN logo" width="271" height="55">
-                              </div>   
-                              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                  <p class="r-copy-right-text">&copy;2023 Designed by <strong>HBA Solutions</strong> </p>
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                <img src="assets/images/BRN_logo_white.svg" class="r-footer-logo" alt="BRN logo" width="135" height="22"> 
+                              </div>
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                  <ul>
+                                    <li><a href="https://www.facebook.com/brn.motorss"><i class="fa fa-facebook"></i>. <span>Facebook</span></a></li>
+                                    <li><a href="https://www.instagram.com/brn_motors/?hl=fr"><i class="fa fa-instagram"></i>.<span>Instagram</span></a></li>
+                                    <li></li>
+                                    <li></li>
+                                  </ul>
                               </div>  
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                <p class="r-copy-right-text">&copy;2023 Designed by <strong>HB2 Code</strong> </p>
+                              </div>   
                             </div>
                           </div>
                         </div>
-                      </div>            
+                      </div>
                       <a href="#header" class="r-scroll-up-icon"> <i class="fa fa-angle-double-up"></i> </a>
                     </footer>
                   </div>                  
