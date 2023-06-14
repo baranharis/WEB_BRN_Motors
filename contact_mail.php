@@ -1,8 +1,8 @@
 <?php
 
     // Ajoutez ces deux lignes
-    ini_set("SMTP","ssl://smtp.gmail.com");
-    ini_set("smtp_port","587");
+    // ini_set("SMTP","ssl://smtp.gmail.com");
+    // ini_set("smtp_port","587");
 
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -12,7 +12,7 @@
         $message = $_POST['message'];
 
         // UPDATE THIS SECTION WITH CUSTOMER MAIL ADRESS
-        $to = 'baran.haris@gmail.com';
+        $to = 'info@brnmotors.be';
         $subject = 'Nouveau message de ' . $name;
         $content = "Nom: $name\nEmail: $email\nTéléphone: $phone\n\nMessage:\n$message";
         $headers = "From: $email\nReply-To: $email\n";
