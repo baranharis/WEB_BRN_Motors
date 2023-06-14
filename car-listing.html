@@ -36,7 +36,7 @@
             display: flex;
             flex-direction: column;
         }
-        .header, .footer {
+        .footer {
             flex: 0 0 auto;
         }
         .content {
@@ -47,21 +47,20 @@
     </style>
 </head>
 <body>
-     <!-- HEADER -->
-     <header>
-        <div class="r-header r-header-inner">
-          <div class="r-header-strip">
-            <div class="container">
-              <div class="row clearfix">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                  <div class="r-logo">
-                    <!-- <a href="index.html" class="d-inline-block"><img src="assets/images/logo.png" class="img-fluid d-block" alt=""></a> -->
-                    <a href="index.html" class="d-inline-block"><img src="assets/images/BRN_logo_white.svg" class="img-fluid d-block" alt="BRN logo" width="271" height="55"></a>                      
-                  </div>
-                  <a href="javaScript:void(0)" class="menu-icon"> <i class="fa fa-bars"></i> </a>
+    <!-- HEADER -->
+    <header id="header">
+      <div class="r-header r-header-inner">
+        <div class="r-header-strip">
+          <div class="container">
+            <div class="row clearfix">
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="r-logo">
+                  <img src="assets/images/BRN_logo_white.svg" alt="BRN logo" width="271" height="55">
                 </div>
-                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12">                     
-                  <div class="r-nav-section float-right">
+                <a href="javaScript:void(0)" class="menu-icon"> <i class="fa fa-bars"></i> </a>
+              </div>
+              <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                <div class="r-nav-section float-right">
                     <nav>
                       <ul>
                         <li><a href="index.html">ACCUEIL</a></li>
@@ -70,24 +69,14 @@
                         <li><a href="contact.html">CONTACTEZ-NOUS</a></li>
                       </ul>
                     </nav>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- <div class="r-header-inner-banner">
-            <div class="r-header-in-over">
-              <h1><b>VEHICULES</b> </h1>
-              <div class="r-breadcrum">
-                <ul>
-                  <li><a href="#">ACCUEIL</a></li>
-                  <li><span>VEHICULES</span></li>
-                </ul>
-              </div>
-            </div>
-          </div> -->
         </div>
-    </header> 
+      </div>
+    </header>
+
 
     <!-- CAR LISTING -->
     <iframe src="https://www.autoscout24.be/fr/professional/embedded-list/brn-motor-s?preview=false" scrolling="auto" frameborder="0" class="content">
@@ -122,5 +111,17 @@
 
         <a href="#header" class="r-scroll-up-icon"> <i class="fa fa-angle-double-up"></i> </a>
     </footer>
+
+    <div id="r-to-top" class="r-to-top"><i class="fa fa-angle-up"></i></div>
+
+    <!-- SCRIPT API:: APP.JS -->
+    <script src="assets/js/app.js"></script>
+    <!-- JQUERY:: JQUERY.JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- JQUERY:: BOOTSTRAP.JS -->
+    <script src="assets/js/tether.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- JQUERY:: CUSTOM -->
+    <script src="assets/js/custom.js"></script>
 </body>
 </html>
